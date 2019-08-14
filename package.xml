@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package>
+    <name>Shopgo_ShippingCore</name>
+    <version>1.3.6</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">OSL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>A shipping core module that other ShopGo shipping modules depend on.</summary>
+    <description>&lt;p&gt;ShopGo Shipping Core is a utility module that contains functions used by other ShopGo shipping modules.&lt;/p&gt;&#xD;
+You could also get the latest version of the module from:&#xD;
+&lt;a href="https://github.com/shopgo-me/shipping-core"&gt;https://github.com/shopgo-me/shipping-core&lt;/a&gt;</description>
+    <notes>The first release of ShopGo Core module.</notes>
+    <authors><author><name>ShopGo</name><user>ShopGo</user><email>support@shopgo.me</email></author></authors>
+    <date>2015-07-08</date>
+    <time>14:20:13</time>
+    <contents><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><dir name="shopgo"><file name="shipping_core.xml" hash="be6da9a49309d76666e521f5f9838a96"/></dir></dir><dir name="template"><dir name="shopgo"><dir name="shipping_core"><dir name="sales"><dir name="order"><dir name="shipment"><dir name="create"><file name="form.phtml" hash="f5ab96dfcd5996b66a89a059882a596e"/><file name="items.phtml" hash="4a00a29303c47c91fa83afcbb29935c7"/></dir></dir></dir></dir><dir name="system"><dir name="config"><file name="dwa_button.phtml" hash="706179d3120c218faf9a1e815642394b"/></dir></dir></dir></dir></dir></dir></dir></dir><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><dir name="shopgo"><file name="shipping_core.xml" hash="fe05da7d61e0d6392654981524b3c91e"/></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Shopgo_ShippingCore.xml" hash="74b12adf823de62e688e8452525304f7"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.3.0</min><max>7.0.0</max></php><package><name>Shopgo_Core</name><channel>community</channel><min>1.0.6</min><max/></package><package><name>Shopgo_AdvIfconfig</name><channel>community</channel><min>1.0.3</min><max/></package></required></dependencies>
+</package>

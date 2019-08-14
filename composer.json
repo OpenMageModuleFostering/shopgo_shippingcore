@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Shopgo_ShippingCore",
+    "type": "magento-module",
+    "license": "OSL",
+    "homepage": "",
+    "description": "A shipping core module that other ShopGo shipping modules depend on.",
+    "authors": [
+    {
+        "name": "ShopGo",
+        "email": "support@shopgo.me"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
