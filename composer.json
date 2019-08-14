@@ -3,7 +3,7 @@
     "type": "magento-module",
     "license": "OSL",
     "homepage": "",
-    "description": "A shipping core module that other ShopGo shipping modules depend on.",
+    "description": "A shipping core module that other ShopGo shipping modules depend on. It contains reusable code functions.",
     "authors": [
     {
         "name": "ShopGo",
